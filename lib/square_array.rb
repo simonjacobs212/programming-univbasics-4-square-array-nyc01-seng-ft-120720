@@ -1,7 +1,5 @@
 def square_array(array)
-  counter = array.length()
-  while array[counter] {|i| array << i ** 2}
-    counter += 1
-    array
-  end
+  new_array = []
+  array.length.times do |i|
+    new_array << (array[i] ** 2)
 end
